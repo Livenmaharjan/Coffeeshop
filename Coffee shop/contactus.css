@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    border: 3px outset black;
+    width: 2in;
+    border-radius: 30px;
+    line-height: 5cm;
+    color: rgb(216, 212, 212);
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* login page */
+.login{
+    margin-top: 15vh;
+    margin-left: 68vh;
+    font-size: 25px;
+    background: rgba(100, 94, 89, 0.486);
+    width: 350px;
+    height: 300px;
+    border: 6px ridge black;
+}
+.login:hover{
+    background-color: rgba(46, 31, 8, 0.493);
+}
+
+h1{
+    font-size: 30px;
+    margin-left: 1cm;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 1cm;
+    line-height: 36px;
+}
+
+/* login email password */
+.mail{
+    border-top:3px outset black;
+}
+
+/* navigation bar */
+nav {
+    background-image: url("img/board1.jpg");
+    height: 570px;
+    border: 2px inset none;
+    border-radius: 30px;
+
+}
+/* nav stuff */
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+/* navigation ul */
+ul :hover {
+    border-radius: 14px;
+    background-color: rgba(0, 0, 0, 0.692);
+    color: rgb(255, 255, 255);
+    border: 3px inset rgb(134, 120, 120);
+    font-family: 'Tilt Neon', cursive;
+    text-decoration: none;
+}
+
+div .nav {
+    display: flex;
+}
+
+/* buttons */
+button{
+    border: 2px inset black;
+    border-radius: 4px;
+    font-size: 14px;
+    transform: scale(1.2);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button:hover{
+    background-color: rgb(83, 83, 83);
+    color: rgb(168, 214, 171);
+    border: 2px outset gray;
+}
